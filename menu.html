@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Menu</title>
+  <link rel="icon" type="image/x-icon" href="./photo/menu.png">
+  <link rel="stylesheet" href="style.css"> <div id="navbar">
+    <img src="./photo/logo-removebg-preview.png" alt="Bistro logo">    
+    <nav>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="menu.html">menu</a></li>
+        <li><a href="gallery.html">gallery</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <li><a href="login.html">log in</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</head>
+<body>
+  <div class="menu-container">
+    <!-- Categories -->
+    <div class="menu-categories">
+      <button class="category active" data-category="all">All</button>
+      <button class="category" data-category="Salads">Salads</button>
+      <button class="category" data-category="Pizzas">Pizzas</button>
+      <button class="category" data-category="egyption">egyption</button>
+      <button class="category" data-category="dessert">desserts</button>
+      <button class="category" data-category="drinks">drinks</button>
+    </div>
+
+    <!-- Menu Items -->
+    <div class="menu-grid">
+      <div class="menu-item" data-category="Pizzas">
+        <img src="./photo/menu foods/20210822_301_Motown.webp" alt="Motown">
+        <div class="menu-details">
+          <h3>pizza Motown</h3>
+          <p>Ingredients: Mozzarella cheese, tomato sauce, pepperoni, olives, green peppers</p>
+          <span class="menu-price">$12.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="Pizzas">
+        <img src="./photo/menu foods/20210917_313_PizzaMaru.webp" alt="Pizza Maru">
+        <div class="menu-details">
+          <h3>Pizza Maru</h3>
+          <p>Ingredients: Spicy chicken, mozzarella cheese, sweet corn, onions, BBQ sauce.</p>
+          <span class="menu-price">$13.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="Pizzas">
+        <img src="./photo/menu foods/20220415_388_TMsByTheDenPetesPlace.webp" alt="Petes Place">
+        <div class="menu-details">
+          <h3>Petes Place</h3>
+          <p>Ingredients: Tomato sauce, mushrooms, smoked sausage, cheddar cheese.</p>
+          <span class="menu-price">$11.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="Pizzas">
+        <img src="./photo/menu foods/20220829_442_Ciak.webp" alt="Ciak">
+        <div class="menu-details">
+          <h3>Ciak Pizza</h3>
+          <p>Ingredients: Mozzarella, artichokes, basil pesto, cherry tomatoes, black olives.</p>
+          <span class="menu-price">$14.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="Pizzas">
+        <img src="./photo/menu foods/20221125_474_MrKPizzaNChicken.webp" alt="MrKPizzaNChicken">
+        <div class="menu-details">
+          <h3>Mr. Pizza Chicken</h3>
+          <p>Ingredients: Grilled chicken, mozzarella, onions, BBQ sauce, bell peppers.</p>
+          <span class="menu-price">$13.50</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="Pizzas">
+        <img src="./photo/menu foods/about pizza.jpg" alt="Bistropizza">
+        <div class="menu-details">
+          <h3>Bistro Pizza</h3>
+          <p>Ingredients: Classic cheese pizza with a crispy crust and oregano.</p>
+          <span class="menu-price">$10.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="egyption">
+        <img src="./photo/menu foods/Chicken-Spaghetti-II-SoupLovingNicole-2x2-1-2000-2e87efebe9c84f158f0cfbc993b6e5b3.jpg" alt="Chickenspaghetti">
+        <div class="menu-details">
+          <h3>Chicken spaghetti</h3>
+          <p>Ingredients: Spaghetti pasta, grilled chicken strips, tomato basil sauce, Parmesan cheese.</p>
+          <span class="menu-price">$9.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="Salads">
+        <img src="./photo/menu foods/Italian-Grilled-Chicken-Salad_full-15-sq-1024x1024.webp" alt="Italian-Grilled-Chicken-Salad">
+        <div class="menu-details">
+          <h3>Italian Grilled Chicken Salad</h3>
+          <p>Ingredients: Grilled chicken breast, romaine lettuce, cherry tomatoes, croutons, Caesar dressing.</p>
+          <span class="menu-price">$8.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="Salads">
+        <img src="./photo/menu foods/salad-crunchy-kale-caesar.jpg" alt="salad-crunchy-kale-caesar">
+        <div class="menu-details">
+          <h3>salad crunchy kale caesar</h3>
+          <p>Ingredients: Kale, romaine lettuce, Parmesan, croutons, creamy Caesar dressing.</p>
+          <span class="menu-price">$7.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="Salads">
+        <img src="./photo/menu foods/salad-eggspress.jpg" alt="salad-eggspres">
+        <div class="menu-details">
+          <h3>salad eggspres</h3>
+          <p>Ingredients: Boiled eggs, spinach, avocado, olive oil, and black pepper.</p>
+          <span class="menu-price">$6.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="Salads">
+        <img src="./photo/menu foods/freash salad.jpg" alt="freash salad">
+        <div class="menu-details">
+          <h3>freash salad</h3>
+          <p>Ingredients: Mixed greens, cucumbers, carrots, lemon vinaigrette.</p>
+          <span class="menu-price">$5.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="Salads">
+        <img src="./photo/menu foods/health salad.jpg" alt="health salad">
+        <div class="menu-details">
+          <h3>health salad</h3>
+          <p>Ingredients: Quinoa, spinach, chickpeas, pomegranate seeds, lemon dressing.</p>
+          <span class="menu-price">$6.50</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="Salads">
+        <img src="./photo/menu foods/salad-hot-thai.jpg" alt="salad-hot-thai">
+        <div class="menu-details">
+          <h3>salad hot thai</h3>
+          <p>Ingredients: Shredded cabbage, carrots, roasted peanuts, spicy Thai dressing.</p>
+          <span class="menu-price">$7.50</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="Salads">
+        <img src="./photo/menu foods/salad-mediterranean.jpg" alt="salad mediterranean">
+        <div class="menu-details">
+          <h3>salad mediterranean</h3>
+          <p>Ingredients: Feta cheese, olives, cucumbers, tomatoes, olive oil.</p>
+          <span class="menu-price">$8.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="Salads">
+        <img src="./photo/menu foods/salad-rainbow.jpg" alt="salad-rainbow">
+        <div class="menu-details">
+          <h3>salad rainbow</h3>
+          <p>Ingredients: Bell peppers, purple cabbage, carrots, corn, honey mustard dressing.</p>
+          <span class="menu-price">$7.50</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="egyption">
+        <img src="./photo/menu foods/Koshari.jpg" alt="Koshari">
+        <div class="menu-details">
+          <h3>Koshari</h3>
+          <p>Ingredients: Lentils, rice, pasta, tomato sauce, fried onions, chickpeas.</p>
+          <span class="menu-price">$5.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="egyption">
+        <img src="./photo/menu foods/Hawawshi.jpg" alt="Hawawshi">
+        <div class="menu-details">
+          <h3>Hawawshi</h3>
+          <p>Ingredients: Spiced minced beef, parsley, onions, baked in pita bread.</p>
+          <span class="menu-price">$7.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="egyption">
+        <img src="./photo/menu foods/Chicken-Shawarma.jpg" alt="Chicken-Shawarma">
+        <div class="menu-details">
+          <h3>Chicken Shawarma</h3>
+          <p>Ingredients: Marinated chicken slices, garlic sauce (toum), pickles, lettuce, and tomatoes, wrapped in flatbread.</p>
+          <span class="menu-price">$8.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="egyption">
+        <img src="./photo/menu foods/Kofta-Kebab.jpg" alt="Kofta-Kebab">
+        <div class="menu-details">
+          <h3>Kofta Kebab</h3>
+          <p>Ingredients: Minced beef or lamb, parsley, onions, garlic, Middle Eastern spices, served with grilled vegetables and pita bread.</p>
+          <span class="menu-price">$9.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="dessert">
+        <img src="./photo/menu foods/Umm-Ali.jpg" alt="Umm-Ali">
+        <div class="menu-details">
+          <h3>Umm Ali</h3>
+          <p>Ingredients: Puff pastry, milk, sugar, nuts, coconut.</p>
+          <span class="menu-price">$4.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="dessert">
+        <img src="./photo/menu foods/Baklava.png" alt="Baklava">
+        <div class="menu-details">
+          <h3>Baklava</h3>
+          <p>Ingredients: Layers of filo pastry, nuts, honey syrup.</p>
+          <span class="menu-price">$6.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="dessert">
+        <img src="./photo/menu foods/Feteer Meshaltet.png" alt="Feteer">
+        <div class="menu-details">
+          <h3>Feteer Meshaltet</h3>
+          <p>Ingredients: Layers of buttery pastry served plain or with honey and cream.</p>
+          <span class="menu-price">$6.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="dessert">
+        <img src="./photo/menu foods/Basbousa.jpg" alt="Basbousa">
+        <div class="menu-details">
+          <h3>Basbousa</h3>
+          <p>Ingredients: Semolina, sugar, coconut, and syrup</p>
+          <span class="menu-price">$4.50</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="dessert">
+        <img src="./photo/menu foods/Baked-sweet-potato.jpg" alt="Baked-sweet-potato">
+        <div class="menu-details">
+          <h3>Baked sweet potato</h3>
+          <p>Ingredients: Sweet potato baked to perfection, topped with honey.</p>
+          <span class="menu-price">$3.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="dessert">
+        <img src="./photo/menu foods/sweat tost.jpg" alt="sweeet-tost">
+        <div class="menu-details">
+          <h3>Sweet Toast</h3>
+          <p>Ingredients: French toast topped with maple syrup, berries, and powdered sugar.</p>
+          <span class="menu-price">$4.50</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="dessert">
+        <img src="./photo/menu foods/Waffles_with_Strawberries.jpg" alt="Waffles_with_Strawberries">
+        <div class="menu-details">
+          <h3>Waffles with Strawberries</h3>
+          <p>Ingredients: Warm Belgian waffle, fresh strawberries, whipped cream, powdered sugar, and a drizzle of maple syrup.</p>
+          <span class="menu-price">$6.99</span>
+        </div>
+      </div>
+      <div class="menu-item" data-category="dessert">
+        <img src="./photo/menu foods/cheesecake.jpg" alt="cheesecake">
+        <div class="menu-details">
+          <h3>cheesecake</h3>
+          <p>Ingredients: Cream cheese, graham cracker crust, vanilla extract, topped with fresh strawberries or a berry compote.</p>
+          <span class="menu-price">$5.99</span>
+        </div>
+      </div>
+        <div class="menu-item" data-category="drinks">
+          <img src="./photo/menu foods/Cappuccino.webp" alt="Cappuccino">
+          <div class="menu-details">
+            <h3>Cappuccino</h3>
+            <p>Ingredients: Espresso, steamed milk, milk foam</p>
+            <span class="menu-price">$3.50</span>
+          </div>
+        </div>
+        <div class="menu-item" data-category="drinks">
+            <img src="./photo/menu foods/Caffe_Latte.jpg" alt="Latte">
+            <div class="menu-details">
+              <h3>Latte</h3>
+              <p>Ingredients: Espresso, steamed milk</p>
+              <span class="menu-price">$3.75</span>
+            </div>
+          </div>
+          <div class="menu-item" data-category="drinks">
+          <img src="./photo/menu foods/americano.webp" alt="Americano">
+          <div class="menu-details">
+            <h3>Americano</h3>
+            <p>Ingredients: Espresso, hot water</p>
+            <span class="menu-price">$2.50</span>
+          </div>
+        </div>
+          <div class="menu-item" data-category="drinks">
+            <img src="./photo/menu foods/Iced-Coffee.webp" alt="Iced Coffee">
+            <div class="menu-details">
+              <h3>Iced Coffee</h3>
+              <p>Ingredients: Brewed coffee, ice, sugar (optional)</p>
+              <span class="menu-price">$3.00</span>
+            </div>
+          </div>
+        <div class="menu-item" data-category="drinks">
+          <img src="./photo/menu foods/Mocha.jpg" alt="Mocha">
+          <div class="menu-details">
+            <h3>Mocha</h3>
+            <p>Ingredients: Espresso, steamed milk, chocolate syrup, whipped cream</p>
+            <span class="menu-price">$4.00</span>
+          </div>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <img src="./photo/menu foods/espresso.jpg" alt="Espresso">
+          <div class="menu-details">
+            <h3>Espresso</h3>
+            <p>Ingredients: Ground coffee beans</p>
+            <span class="menu-price">$2.00</span>
+          </div>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <img src="./photo/menu foods/berry-smoothie.jpg" alt="Berry Smoothie">
+          <div class="menu-details">
+            <h3>Berry Smoothie</h3>
+            <p>Ingredients: Mixed berries, yogurt, honey, ice</p>
+            <span class="menu-price">$5.00</span>
+          </div>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <img src="./photo/menu foods/matcha-latte.webp" alt="Matcha Latte">
+          <div class="menu-details">
+            <h3>Matcha Latte</h3>
+            <p>Ingredients: Matcha powder, steamed milk, honey (optional)</p>
+            <span class="menu-price">$4.50</span>
+          </div>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <img src="./photo/menu foods/Iced_Latte.webp" alt="Iced Latte">
+          <div class="menu-details">
+            <h3>Iced Latte</h3>
+            <p>Ingredients: Espresso, cold milk, ice</p>
+            <span class="menu-price">$3.50</span>
+          </div>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <img src="./photo/menu foods/Chai Latte.jpg" alt="Chai Latte">
+          <div class="menu-details">
+            <h3>Chai Latte</h3>
+            <p>Ingredients: Chai tea concentrate, steamed milk, honey (optional)</p>
+            <span class="menu-price">$4.00</span>
+          </div>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <img src="./photo/menu foods/hot-chocolate.jpg" alt="Hot Chocolate">
+          <div class="menu-details">
+            <h3>Hot Chocolate</h3>
+            <p>Ingredients: Milk, chocolate syrup or cocoa powder, whipped cream</p>
+            <span class="menu-price">$3.25</span>
+          </div>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <img src="./photo/menu foods/lemonade.webp" alt="Lemonade">
+          <div class="menu-details">
+            <h3>Lemonade</h3>
+            <p>Ingredients: Fresh lemon juice, water, sugar</p>
+            <span class="menu-price">$2.50</span>
+          </div>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <img src="./photo/menu foods/Iced_Tea.jpg" alt="Iced Tea">
+          <div class="menu-details">
+            <h3>Iced Tea</h3>
+            <p>Ingredients: Tea, cold water, ice, lemon (optional)</p>
+            <span class="menu-price">$2.00</span>
+          </div>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <img src="./photo/menu foods/mojito.jpg" alt="Mojito">
+          <div class="menu-details">
+            <h3>Mojito</h3>
+            <p>Ingredients: Fresh mint leaves, lime, sugar, soda water, rum (optional)</p>
+            <span class="menu-price">$5.50</span>
+          </div>
+        </div>
+        <div class="menu-item" data-category="drinks">
+          <img src="./photo/menu foods/orange-juice-recipe.jpg" alt="Fresh Orange Juice">
+          <div class="menu-details">
+            <h3>Fresh Orange Juice</h3>
+            <p>Ingredients: Fresh oranges</p>
+            <span class="menu-price">$3.00</span>
+          </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+<footer>
+  <div id="footer">
+  <p>Copyright &copy; 2025 All rights reserved | made by <b> <a href="Bistro.html" target="_blank"> Bistro_team</a></b>
+  </p>
+  </div>
+</footer>
+</html>
