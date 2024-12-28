@@ -775,7 +775,7 @@ header * {
 
 /* Footer End */
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   #navbar {
     flex-direction: column;
     width: 100%;
@@ -832,8 +832,8 @@ header * {
   }
 
   #daytime .container .daytime-items .daytime-item .ph {
-    width: 80px;
-    height: 80px;
+    width: 250px;
+    height: 250px;
   }
 
   #daytime .container .daytime-items {
