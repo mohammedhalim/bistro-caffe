@@ -862,14 +862,6 @@ header * {
   .menu-item {
     margin: 5px;
   }
-
-  .menu-categories {
-    flex-direction: column;
-    align-items: center;
-  }
-  .menu-categories .button1 {
-      margin-bottom: 5px;
-    }
     #gallery {
       flex-direction: column;
     }
