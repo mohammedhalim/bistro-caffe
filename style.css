@@ -926,7 +926,7 @@ a {
 
 @media (max-width: 800px) {
   body,main,header{
-    max-width:500px; 
+    max-width:450px; 
   } 
   .card{
     width: 300px; 
@@ -1025,7 +1025,7 @@ a {
     margin: 5px;
   }
   .menu-container{
-    max-width:600px; 
+    max-width:450px; 
   } 
 
   .menu-categories {
@@ -1049,6 +1049,9 @@ a {
     display: block;
 
   }
+  .booking,.login{
+    width: 350px; 
+  } 
 
   .gallery-item img {
     width: 100%;
