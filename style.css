@@ -925,7 +925,7 @@ a {
 /* Footer End */
 
 @media (max-width: 800px) {
-  body{
+  body,main,header{
     max-width:500px; 
   } 
   #navbar {
