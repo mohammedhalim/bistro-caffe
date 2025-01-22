@@ -926,7 +926,7 @@ a {
 
 @media (max-width: 800px) {
   body{
-    max-width:650px; 
+    max-width:500px; 
   } 
   #navbar {
     flex-direction: column;
@@ -1022,7 +1022,7 @@ a {
     margin: 5px;
   }
   .menu-container{
-    max-width:650px; 
+    max-width:600px; 
   } 
 
   .menu-categories {
