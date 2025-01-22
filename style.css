@@ -1022,6 +1022,9 @@ a {
   .menu-categories {
     flex-direction: row;
   }
+  .category{
+    margin:0px; 
+  } 
 
   #gallery {
     flex-direction: column;
