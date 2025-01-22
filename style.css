@@ -925,6 +925,9 @@ a {
 /* Footer End */
 
 @media (max-width: 800px) {
+  body{
+    max-width:650px; 
+  } 
   #navbar {
     flex-direction: column;
     width: 100%;
@@ -1019,7 +1022,7 @@ a {
     margin: 5px;
   }
   .menu-container{
-    max-width:675px; 
+    max-width:650px; 
   } 
 
   .menu-categories {
