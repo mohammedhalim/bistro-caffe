@@ -928,6 +928,9 @@ a {
   body,main,header{
     max-width:500px; 
   } 
+  .card{
+    width: 300px; 
+  } 
   #navbar {
     flex-direction: column;
     width: 100%;
